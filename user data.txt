@@ -1,0 +1,13 @@
+"email":"test1@gmail.com"
+"password":"atul72144",
+
+
+"email":"admin@gmail.com",
+"password":"newpassword"
+
+email:"test@gmail.com"
+password": "newpassword72",
+
+We started by creating static method (entire function) to basically create the statistics of the average and number of ratings of the tour ID for which the current review was created. And we created this function as a static method because we need it to call the aggregate function on the model. In a static method to this variable calls exactly to a method. 
+
+So we constructed our aggregation pipeline here where we selected all the reviews that matched  to the current tour ID and they are calculated, the statistics for all of reviews. After this was done we save the statistics to the current tour. Then in order to actually use this function we call it after a new review has been created. For that we need to use this.constructor because this is what points to the current model.

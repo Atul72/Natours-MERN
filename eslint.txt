@@ -1,0 +1,3 @@
+eslint is a program that scans our code and find potential coding errors.
+it is also a code formatter but I will use prettier as main code formatter but on some eslint rules that i willl define. It will highlight the error.
+
